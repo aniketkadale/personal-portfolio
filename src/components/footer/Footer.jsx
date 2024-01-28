@@ -5,6 +5,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   return (
@@ -34,20 +35,14 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a
+        {/* <a
           href="https://www.facebook.com/aniket.kadale.180/"
           target="_blank"
           rel="noreferrer"
         >
           <AiFillFacebook className="footer__social-icons" />
-        </a>
-        <a
-          href="https://www.instagram.com/_aniket.0x/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <AiOutlineInstagram className="footer__social-icons" />
-        </a>
+        </a> */}
+
         <a
           href="https://www.linkedin.com/in/aniket-kadale-1090a01ba/"
           rel="noreferrer"
@@ -55,6 +50,15 @@ function Footer() {
         >
           <AiFillLinkedin className="footer__social-icons" />
         </a>
+
+        <a
+          href="https://leetcode.com/kadaleaniket08/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiLeetcode className="footer__social-icons" />
+        </a>
+
         <a
           href="https://twitter.com/AniketKadale3"
           target="_blank"
@@ -68,6 +72,14 @@ function Footer() {
           rel="noreferrer"
         >
           <AiFillGithub className="footer__social-icons" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/_aniket.0x/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineInstagram className="footer__social-icons" />
         </a>
       </div>
 

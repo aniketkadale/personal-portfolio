@@ -85,3 +85,8 @@ header {
         display: none;
     }
 }
+
+.buy__coffee {
+    display: flex;
+    justify-content: flex-end;
+}

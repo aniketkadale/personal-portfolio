@@ -1,15 +1,21 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME4 from "../../assets/ME4.png";
+import ME5 from "../../assets/ME5.png";
 import HeaderSocials from "./HeaderSocials";
 import Typewriter from "typewriter-effect";
+import CoffeeDialog from "../CoffeeDialog/CoffeeDialog";
 
 function Header() {
   return (
     <header>
       <div className="container header__container">
+        {/* <h3
+         className="buy__coffee" >Buy me a coffee</h3> */}
         <h5>Hello I'm</h5>
+        <div>
+        <CoffeeDialog />
+        </div>
         <h1>Aniket Kadale</h1>
         {/* <h5 className="text-light">
           Developer, Designer, Editor, Content Writer
@@ -42,7 +48,7 @@ function Header() {
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME4} alt="me" />
+          <img src={ME5} alt="me" />
         </div>
 
         <a href="#contact" className="scroll__down">

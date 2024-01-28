@@ -1,54 +1,61 @@
 import React from "react";
 import "./portfolio.css";
-import portfolio1 from "../../assets/portfolio1.jpg";
-// import portfolio2 from "../../assets/portfolio2.jpg";
-// import portfolio3 from "../../assets/portfolio3.jpg";
+import secrets from '../../assets/secrets.png'
+import amazon from '../../assets/amazon-clone.png'
+import socialmediaapp from "../../assets/socialmediaapp.png"
 import portfolio4 from "../../assets/portfolio4.jpg";
-// import portfolio5 from "../../assets/portfolio5.jpg";
-// import portfolio6 from "../../assets/portfolio6.jpg";
 import clock from "../../assets/clock.png";
 import spotify from "../../assets/spotify.png";
 import gym from "../../assets/gym.png";
-import personalportfolio from "../../assets/personalportfolio.png";
+import notes from "../../assets/notes.png"
 
 const data = [
   {
     id: 1,
-    image: portfolio1,
-    title: "Taskify - A Project Management Web App",
-    github: "https://github.com/aniketkadale",
-    demo: "https://techwithandy.online/top-7-courses-on-udemy-under-rs-500/",
+    image: secrets,
+    title: "Secrets - share your secrets anonymously 🤫",
+    github: "https://github.com/aniketkadale/Secrets",
+    demo: "https://drive.google.com/file/d/1f7sHqULcwfZE0hdLE-ovUAO-QapejBdM/view",
   },
+
   {
     id: 2,
-    image: gym,
-    title: "Gym Website UI",
-    github: "https://github.com/aniketkadale/Gym-Webisite",
-    demo: "https://gym-web-ui.netlify.app/",
+    image: amazon,
+    title: "Amazon Clone",
+    github: "https://github.com/aniketkadale/amazon-clone",
+    demo: "https://clone-4fdcd.web.app/",
   },
+
   {
     id: 3,
-    image: personalportfolio,
-    title: "Personal Portfolio",
-    github: "https://github.com/aniketkadale",
-    demo: "#",
+    image: notes,
+    title: "QuickNotes - A note taking app",
+    github: "https://github.com/aniketkadale/QuickNotes---A-Note-Taking-React-App",
+    demo: "https://quicknotes-aniketkadale.netlify.app/",
   },
   {
     id: 4,
+    image: socialmediaapp,
+    title: "FreindZone - A social media pp",
+    github: "https://github.com/aniketkadale/FriendZone-Social-Media-App",
+    demo: "https://drive.google.com/file/d/1lZe_odA_SyOviqTn-cLeMG7B0vHoo1ER/view",
+  },
+  {
+    id: 5,
     image: portfolio4,
     title: "Finced - Mobile Banking & Invoicing",
     github: "https://github.com/aniketkadale/",
     demo: "#",
   },
   {
-    id: 5,
+    id: 6,
     image: clock,
     title: "Analog Clock UI",
     github: "https://github.com/aniketkadale/Analog-Clock-UI--CSS",
     demo: "https://analog-clock-ui-js.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: spotify,
     title: "Spotify Music Player",
     github: "https://github.com/aniketkadale",

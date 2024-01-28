@@ -10,6 +10,7 @@ import { AiOutlineConsoleSql } from "react-icons/ai";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { IoLogoPython } from "react-icons/io";
 
 function Experience() {
@@ -84,6 +85,20 @@ function Experience() {
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaNodeJs className="experience__icon experience__details-icons" />
+              <div>
+                <h4>Node.js</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaNodeJs className="experience__icon experience__details-icons" />
+              <div>
+                <h4>Express.js</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             {/* <article className="experience__details">

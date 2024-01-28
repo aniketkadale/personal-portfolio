@@ -25,34 +25,55 @@ function About() {
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>50+ Clients Worldwide</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <VscProject className="about__icon" />
               <h5>Projects</h5>
-              <small>30+ Completed Projects</small>
+              <small>20+ Completed Projects</small>
             </article>
           </div>
 
-          <p>
-            Currently pursuing Engineering in Information Technology from AISSMS
-            IOIT, Pune. I'm in my 3rd year right now.
-            <br />
-            <br />
-            Apart from that I'm a Full Stack Developer with 1+ years of hands-on
-            experience designing, developing, and implementing applications and
-            solutions using a range of technologies and programming languages.
-            <br />
-            <br />
-            I'm also a Blogger. I have my own blog website where I share
-            information related to techlology and programming. You can visit my
-            website to read some amazing blogs 🚀
-          </p>
+          <br />
 
-          <a href="#contact" className="btn btn-primary">
+          <ul className="list-style">
+            <li>
+              Currently pursuing my fourth year of Engineering in
+              Information Technology at AISSMS Institute of Information Technology, Pune.
+            </li>
+            <br />
+            <li>
+               Full Stack Developer with over 1 year of hands-on
+              experience in designing, developing, and implementing applications.
+            </li>
+            <br />
+            <li>
+               Proficient in Data Structures and Algorithms,
+              applying these skills in practical scenarios.
+            </li>
+            <br />
+            <li>
+               Well-versed in core computer fundamentals, including
+              Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.
+            </li>
+            <br />
+            <li>
+               Blogger with a personal website where I share information
+              related to technology and programming. You can visit my website to
+              read some amazing blogs 🚀.
+            </li>
+            <br />
+          </ul>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=918999913935"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
             Let's Talk
           </a>
         </div>
